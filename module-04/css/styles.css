@@ -1,0 +1,252 @@
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+body {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
+  
+}
+
+.wrapper {
+  width: 1110px;
+  margin: 0 auto;
+  padding-top: 46px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1110px;
+  font-weight: 300;
+}
+
+.link-logo {
+  list-style: none;
+  
+}
+
+.link-logo {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  line-height: 32px;
+  color: #555252;
+  padding-left: 0;
+  
+}
+
+.link-logo:first-letter {
+  font-family: 'Roboto Black', sans-serif;
+  font-weight: 900;
+  color: #1abc9c;
+}
+
+.link-navigation {
+    display: inline-block;
+    float: left;
+    text-transform: uppercase;
+    margin-left: 34px;
+    
+}
+
+.link-navigation a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 11px;
+  letter-spacing: -0.28px;
+  color: black;
+}
+
+.site-navigation a:hover {
+  color: #1abc9c;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  color: #515151;
+  font-size: 48px;
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+
+.title::after {
+  content: "";
+  width: 164px;
+  padding-bottom: 30px;
+  margin-top: 26px;
+  margin: 0 auto;
+  border-bottom: 7px solid #1abc9c;
+  display: block;
+}
+
+.product-list {
+  width: 1110px;
+  display: block;
+  padding-left: 0;
+}
+
+.product-list-item {
+  float: left;
+  display: block;
+  box-sizing: content-box;
+  width: 255px;
+  list-style: none;
+  background-color: #e9f0fd;
+}
+.product-list-item {
+  margin-right: 30px;
+  margin-bottom: 32px;
+}
+.product-list-item:nth-child(4n+4) {
+  margin-right: 0;
+}
+
+.product-list-item:focus .header-product {
+  background-color: #1abc9c;
+  
+}
+.product-list-item:hover .header-product {
+  background-color: #1abc9c;
+  
+}
+
+.product-list-item:hover .price {
+  background-color: #7fd9c7;
+
+}
+
+.bottom-shop {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 32px;
+    text-align: left;
+    font-weight: 900;
+    background-color: #323232;
+
+}
+.bottom-shop {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.header-product {
+    display: inline-block;
+    float: left;
+    width: 189px;
+    margin: 0px;
+    padding: 4px 0px 4px 12px;
+}
+
+.price {
+  display: inline-block;
+  float: right;
+  text-align: center;
+  width: 54px;
+  margin: 0px;
+  background-color: #ffffff70;
+  padding: 4px 0px;
+}
+
+.featured-item:hover .featured-item-box {
+  background-color: #1abc9c;
+}
+.header-product {
+  list-style: none;
+}
+.news {
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
+  color: #555252;
+  padding-top: 30px;
+  margin-bottom: 70px;
+}
+
+
+.news::after {
+  content: "";
+  width: 164px;
+  padding-bottom: 30px;
+  margin-top: 26px;
+  margin: 0 auto;
+  border-bottom: 7px solid #1abc9c;
+  display: block;
+  
+}
+
+.news-list-clearflix {
+  padding-left:  0;
+   
+}
+.news-list {
+  display: inline-block;
+  float: left;
+  width: 350px;
+  list-style: none;
+  margin-right: 30px;
+  
+}
+.news-list:nth-child(3){
+  margin-right: 0;
+}
+.blog-hed {
+color: #555252;
+font-family: 'Open Sans', sans-serif;
+font-size: 18px;
+line-height: 26px;
+
+}
+
+.blog-hed::after {
+  content: "";
+  width: 136px;
+  padding-bottom: 12px;
+  margin-top: 0px;
+  margin-left: 0;
+  border-bottom: 3px solid #1abc9c;
+  display: block;
+  
+}
+.news-blog {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  margin-bottom: 18px;
+}
+.click-button {
+  background-color:#4ec6ab;
+  margin-bottom: 80px;
+}
+.click-button a {
+  display: block;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  padding-top: 17px;
+  padding-right: 49px;
+  padding-bottom: 17px;
+  padding-left: 49px;
+ 
+}
+  
+  
+  
+  
+
