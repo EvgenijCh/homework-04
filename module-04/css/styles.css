@@ -15,12 +15,6 @@ body {
   padding-top: 46px;
 }
 
-.navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .main-menu {
   display: flex;
   justify-content: space-between;
@@ -234,6 +228,7 @@ line-height: 26px;
   background-color:#4ec6ab;
   margin-bottom: 80px;
 }
+
 .click-button {
   display: block;
   text-decoration: none;
@@ -245,7 +240,6 @@ line-height: 26px;
   padding-left: 49px;
  
 }
-  
   
   
   
