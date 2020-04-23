@@ -19,7 +19,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1110px;
   font-weight: 300;
 }
 
@@ -30,6 +29,7 @@ body {
 
 .link-logo {
   display: block;
+  float: left;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 30px;
