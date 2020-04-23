@@ -234,7 +234,7 @@ line-height: 26px;
   background-color:#4ec6ab;
   margin-bottom: 80px;
 }
-.click-button a {
+.click-button {
   display: block;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
