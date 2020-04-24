@@ -5,8 +5,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif, 'Open Sans';
-  
+  font-family: "Roboto", sans-serif, "Open Sans";
 }
 
 .wrapper {
@@ -15,7 +14,7 @@ body {
   padding-top: 46px;
 }
 
-.main-menu {
+.navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,7 +23,6 @@ body {
 
 .link-logo {
   list-style: none;
-  
 }
 
 .link-logo {
@@ -38,26 +36,24 @@ body {
   line-height: 32px;
   color: #555252;
   padding-left: 0;
-  
 }
 
 .link-logo:first-letter {
-  font-family: 'Roboto Black', sans-serif;
+  font-family: "Roboto Black", sans-serif;
   font-weight: 900;
   color: #1abc9c;
 }
 
 .link-navigation {
-    display: inline-block;
-    float: left;
-    text-transform: uppercase;
-    margin-left: 34px;
-    
+  display: inline-block;
+  float: left;
+  text-transform: uppercase;
+  margin-left: 34px;
 }
 
 .link-navigation a {
   text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 11px;
@@ -89,7 +85,6 @@ body {
 }
 
 .product-list {
-  width: 1110px;
   display: block;
   padding-left: 0;
 }
@@ -106,46 +101,39 @@ body {
   margin-right: 30px;
   margin-bottom: 32px;
 }
-.product-list-item:nth-child(4n+4) {
+.product-list-item:nth-child(4n + 4) {
   margin-right: 0;
 }
 
 .product-list-item:focus .header-product {
   background-color: #1abc9c;
-  
-}
-.product-list-item:hover .header-product {
-  background-color: #1abc9c;
-  
 }
 
 .product-list-item:hover .price {
   background-color: #7fd9c7;
-
 }
 
 .bottom-shop {
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    color: #ffffff;
-    text-transform: uppercase;
-    line-height: 32px;
-    text-align: left;
-    font-weight: 900;
-    background-color: #323232;
-
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 32px;
+  text-align: left;
+  font-weight: 900;
+  background-color: #323232;
 }
-.bottom-shop {
-  text-overflow: ellipsis;
-  overflow: hidden;
+
+.bottom-shop:hover .header-product {
+  background-color: #1abc9c;
 }
 
 .header-product {
-    display: inline-block;
-    float: left;
-    width: 189px;
-    margin: 0px;
-    padding: 4px 0px 4px 12px;
+  display: inline-block;
+  float: left;
+  width: 189px;
+  margin: 0px;
+  padding: 4px 0px 4px 12px;
 }
 
 .price {
@@ -173,7 +161,6 @@ body {
   margin-bottom: 70px;
 }
 
-
 .news::after {
   content: "";
   width: 164px;
@@ -182,12 +169,10 @@ body {
   margin: 0 auto;
   border-bottom: 7px solid #1abc9c;
   display: block;
-  
 }
 
 .news-list-clearflix {
-  padding-left:  0;
-   
+  padding-left: 0;
 }
 .news-list {
   display: inline-block;
@@ -195,17 +180,15 @@ body {
   width: 350px;
   list-style: none;
   margin-right: 30px;
-  
 }
-.news-list:nth-child(3){
+.news-list:nth-child(3) {
   margin-right: 0;
 }
 .blog-hed {
-color: #555252;
-font-family: 'Open Sans', sans-serif;
-font-size: 18px;
-line-height: 26px;
-
+  color: #555252;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 .blog-hed::after {
@@ -216,31 +199,24 @@ line-height: 26px;
   margin-left: 0;
   border-bottom: 3px solid #1abc9c;
   display: block;
-  
 }
 .news-blog {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 26px;
   margin-bottom: 18px;
 }
 .click-button {
-  background-color:#4ec6ab;
+  width: 160px;
+  height: 50px;
+  background-color: #4ec6ab;
   margin-bottom: 80px;
 }
 
-.click-button {
+.bt-link {
   display: block;
   text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #ffffff;
-  padding-top: 17px;
-  padding-right: 49px;
-  padding-bottom: 17px;
-  padding-left: 49px;
- 
+  font-size: 16px;
 }
-  
-  
-  
-
