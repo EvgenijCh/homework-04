@@ -105,10 +105,6 @@ body {
   margin-right: 0;
 }
 
-.product-list-item:focus .header-product {
-  background-color: #1abc9c;
-}
-
 .product-list-item:hover .price {
   background-color: #7fd9c7;
 }
@@ -146,9 +142,6 @@ body {
   padding: 4px 0px;
 }
 
-.featured-item:hover .featured-item-box {
-  background-color: #1abc9c;
-}
 .header-product {
   list-style: none;
 }
